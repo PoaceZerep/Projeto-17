@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h> //necessário para usar as funções malloc() e free()
+#include <stdlib.h> //necessÃ¡rio para usar as funÃ§Ãµes malloc() e free()
 #include <conio.h>
 
 int main (void){
 	
-	vetor = [22]
-        int *prt_vetor
-        prt_vetor = &vetor
+	vetor = [22];
+        int *prt_vetor;
+        prt_vetor = &vetor;
 
         prt_vetor = (int*) malloc(5 * sizeof(int));
 	prt_vetor = (int*) realloc (prt_vetor,22 * sizeof(int));
